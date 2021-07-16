@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  outline: none;
+  border: none;
+}
+.clickZone {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2ecc5e;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-out 0.25s;
+}
+.explain {
+  font-family: "Noto Sans KR";
+  font-size: 1.2rem;
+  letter-spacing: -0.5px;
+  color: #f2f2f2;
+  text-shadow: 0 2px 30px #4d4d4d;
+  text-align: center;
+  user-select: none;
+}
+.red {
+  background-color: #ad1818;
+}
